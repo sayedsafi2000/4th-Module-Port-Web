@@ -12,17 +12,23 @@ h1 {
     color: orange;
 }
 
+.flixable-container {
+    display: flex;
+    margin-bottom: 150px;
+}
+
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     display: flex;
-    margin-bottom: 150px;
+
 
 }
 
 .half-width {
-    width: 50%;
-    padding-left: 7%;
+    width: 39%;
+    padding-left: 8%;
+    margin-right: -40px;
 }
 
 .half-width img {
@@ -43,5 +49,45 @@ h1 {
     background-repeat: no-repeat;
     display: flex;
     background-position: right bottom;
+}
 
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+.dev-expo {
+    width: 50%;
+    height: 400px;
+    margin-left: 3%;
+    margin-right: 2%;
+    box-shadow: 5px 7px 40px gray;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.dev-expo p {
+    color: rgb(88, 87, 87);
+}
+
+.dev-expo h3 {
+    color: orange
+}
+
+#full-dev {
+    border-left: 8px solid #eb4d4d;
+}
+
+#full-dev h1 {
+    font-size: 40px;
+}
+
+#baby-dev {
+    border-left: 8px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
